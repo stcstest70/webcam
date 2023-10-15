@@ -1,0 +1,78 @@
+.homePage{
+    display: flex;
+}
+.homePage-left, .homePage-right{
+    width: 50%;
+}
+.homePage-left{
+    text-align: center;
+}
+.homePage-left h3{
+    color: #726e6e;
+}
+.homePage-left svg{
+    color: gray;
+    background: #ebebeb;
+    padding: 30px;
+    box-shadow: 0px 2px 7px #000000;
+    font-size: 250px;
+}
+.homePage-left video{
+    width: 80%;
+}
+.noWebcamfoung{
+    margin-top: 30px;
+    margin-left: 20px;
+}
+.record-btn-container{
+    margin-top: 100px;
+    margin-left: 20px;
+}
+.record-btn{
+    padding: 5px 8px;
+    font-size: 18px;
+    margin: 2px;
+    font-weight: 600;
+}
+.btn1{
+    background: #4545eb;
+    color: white;
+    border-radius: 3px;
+    border: none;
+}
+.btn2{
+    background: #ed3d3d;
+    color: white;
+    border-radius: 3px;
+    border: none;
+}
+@media only screen and (max-width : 800px){
+    .homePage{
+        display: flex;
+        flex-direction: column;
+    }
+    .homePage-left, .homePage-right{
+        width: 100%;
+        text-align: center;
+    }
+    .homePage-left svg{
+        padding: 20px;
+        font-size: 150px;
+    }
+    .record-btn-container{
+        margin-top: 30px;
+        margin-left: 20px;
+    }
+}
+@media only screen and (max-width : 450px){
+    .homePage-left svg{
+        padding: 15px;
+        font-size: 150px;
+    }
+    .record-btn{
+        padding: 3px 5px;
+        font-size: 15px;
+        margin: 2px;
+        font-weight: 600;
+    }
+}
